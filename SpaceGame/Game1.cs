@@ -18,9 +18,24 @@ namespace SpaceGame
     {
         GraphicsDeviceManager graphics;
 
+        public static MonoGameSaveManager.SaveManager save1;
+        public static MonoGameSaveManager.SaveManager save2;
+        public static MonoGameSaveManager.SaveManager save3;
+        public static MonoGameSaveManager.SaveManager currentSave;
+
         public Game1() : base()
         {
             graphics = new GraphicsDeviceManager(this);
+            Content.RootDirectory = "Content";
+
+            string saveFolder = "AstrocatsSaves";
+            string saveFile1 = "save1.sav";
+            string saveFile2 = "save2.sav";
+            string saveFile3 = "save3.sav";
+
+            save1 = new MonoGameSaveManager.IsolatedStorageSaveManager(saveFolder, saveFile1);
+            save2 = new MonoGameSaveManager.IsolatedStorageSaveManager(saveFolder, saveFile2);
+            save3 = new MonoGameSaveManager.IsolatedStorageSaveManager(saveFolder, saveFile3);
 
 #if WINDOWS_PHONE || ANDROID || IOS
 
@@ -29,8 +44,8 @@ namespace SpaceGame
             TargetElapsedTime = TimeSpan.FromTicks(333333);
             graphics.IsFullScreen = true;
 #elif WINDOWS || DESKTOP_GL
-            graphics.PreferredBackBufferWidth = 800;
-            graphics.PreferredBackBufferHeight = 600;
+            graphics.PreferredBackBufferWidth = 1600;
+            graphics.PreferredBackBufferHeight = 900;
 #endif
 
 
@@ -56,9 +71,36 @@ namespace SpaceGame
 
 			GlobalContent.Initialize();
 			CameraSetup.SetupCamera(SpriteManager.Camera, graphics);
-            //ScreenManager.Start(typeof(SomeScreen).FullName);
+			FlatRedBall.Screens.ScreenManager.Start(typeof(SpaceGame.Screens.StartMenu));
 
             base.Initialize();
+
+
+            //Template to create empty save
+            save1.Data.m1p1_2 = false;
+            save1.Data.m1p1_3 = false;
+            save1.Data.m1p3_4 = false;
+            save1.Data.m1p3_5 = false;
+            save1.Data.m1p5_6 = false;
+            save1.Data.m1p2_6 = false;
+
+            save2.Data.m1p1_2 = false;
+            save2.Data.m1p1_3 = false;
+            save2.Data.m1p3_4 = false;
+            save2.Data.m1p3_5 = false;
+            save2.Data.m1p5_6 = false;
+            save2.Data.m1p2_6 = false;
+
+            save2.Data.m1p1_2 = false;
+            save2.Data.m1p1_3 = false;
+            save2.Data.m1p3_4 = false;
+            save2.Data.m1p3_5 = false;
+            save2.Data.m1p5_6 = false;
+            save2.Data.m1p2_6 = false;
+
+            save1.Load();
+            save2.Load();
+            save3.Load();
         }
 
 
@@ -66,7 +108,7 @@ namespace SpaceGame
         {
             FlatRedBallServices.Update(gameTime);
 
-            FlatRedBall.Screens.ScreenManager.Activity();
+                FlatRedBall.Screens.ScreenManager.Activity();
 
             base.Update(gameTime);
         }

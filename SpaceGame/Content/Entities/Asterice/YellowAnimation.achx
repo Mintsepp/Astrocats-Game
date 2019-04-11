@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AnimationChainArraySave xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FileRelativeTextures>true</FileRelativeTextures>
+  <TimeMeasurementUnit>Undefined</TimeMeasurementUnit>
+  <CoordinateType>Pixel</CoordinateType>
+  <AnimationChain>
+    <Name>Glimmer</Name>
+    <Frame>
+      <TextureName>Gem3.png</TextureName>
+      <FrameLength>1.5</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>20</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>20</BottomCoordinate>
+    </Frame>
+    <Frame>
+      <TextureName>Gem3.png</TextureName>
+      <FrameLength>0.075</FrameLength>
+      <LeftCoordinate>20</LeftCoordinate>
+      <RightCoordinate>40</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>20</BottomCoordinate>
+    </Frame>
+    <Frame>
+      <TextureName>Gem3.png</TextureName>
+      <FrameLength>0.075</FrameLength>
+      <LeftCoordinate>40</LeftCoordinate>
+      <RightCoordinate>60</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>20</BottomCoordinate>
+    </Frame>
+    <Frame>
+      <TextureName>Gem3.png</TextureName>
+      <FrameLength>0.075</FrameLength>
+      <LeftCoordinate>60</LeftCoordinate>
+      <RightCoordinate>80</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>20</BottomCoordinate>
+    </Frame>
+  </AnimationChain>
+</AnimationChainArraySave>

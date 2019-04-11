@@ -1,0 +1,1287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScreenSave xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Map1Gum</Name>
+  <State>
+    <Name>Default</Name>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>aStripeBetweenPlanets1_2.BottomSourceFile</Name>
+      <Value xsi:type="xsd:string">red-bar-bullet1b.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>aStripeBetweenPlanets1_2.Height</Name>
+      <Value xsi:type="xsd:float">370</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>aStripeBetweenPlanets1_2.Height</Name>
+      <Value xsi:type="xsd:float">363</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>aStripeBetweenPlanets1_2.MiddleHeight</Name>
+      <Value xsi:type="xsd:float">338</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>aStripeBetweenPlanets1_2.MiddleSourceFile</Name>
+      <Value xsi:type="xsd:string">red-bar-bullet1m.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>aStripeBetweenPlanets1_2.Rotation</Name>
+      <Value xsi:type="xsd:float">95.19978</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>aStripeBetweenPlanets1_2.Rotation</Name>
+      <Value xsi:type="xsd:float">168.226364</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>State</Type>
+      <Name>aStripeBetweenPlanets1_2.State</Name>
+      <Value xsi:type="xsd:string">Default</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>aStripeBetweenPlanets1_2.TopSourceFile</Name>
+      <Value xsi:type="xsd:string">red-bar-bullet1t.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>aStripeBetweenPlanets1_2.Width</Name>
+      <Value xsi:type="xsd:float">22</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>aStripeBetweenPlanets1_2.X</Name>
+      <Value xsi:type="xsd:float">843</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>aStripeBetweenPlanets1_2.X</Name>
+      <Value xsi:type="xsd:float">778</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>aStripeBetweenPlanets1_2.Y</Name>
+      <Value xsi:type="xsd:float">649.333252</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>aStripeBetweenPlanets1_2.Y</Name>
+      <Value xsi:type="xsd:float">784</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>DimensionUnitType</Type>
+      <Name>Background.Height Units</Name>
+      <Value xsi:type="xsd:int">1</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>Background.SourceFile</Name>
+      <Value xsi:type="xsd:string">space_texture_004.jpg</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>DimensionUnitType</Type>
+      <Name>Background.Width Units</Name>
+      <Value xsi:type="xsd:int">1</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>Background.X</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>Background.Y</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>PlanetButton1.Parent</Name>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>PlanetButton1.PlanetSpriteSourceFile</Name>
+      <Value xsi:type="xsd:string">planet13_big.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>PlanetButton1.X</Name>
+      <Value xsi:type="xsd:float">638</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>PlanetButton1.Y</Name>
+      <Value xsi:type="xsd:float">655</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>PlanetButton2.PlanetSpriteSourceFile</Name>
+      <Value xsi:type="xsd:string">planet6_big.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>PlanetButton2.X</Name>
+      <Value xsi:type="xsd:float">1197</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>PlanetButton2.Y</Name>
+      <Value xsi:type="xsd:float">615</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>PlanetButton3.PlanetSpriteSourceFile</Name>
+      <Value xsi:type="xsd:string">planet3_big.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>bool</Type>
+      <Name>PlanetButton3.Visible</Name>
+      <Value xsi:type="xsd:boolean">true</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>PlanetButton3.X</Name>
+      <Value xsi:type="xsd:float">692</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>PlanetButton3.Y</Name>
+      <Value xsi:type="xsd:float">355</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>PlanetButton4.PlanetSpriteSourceFile</Name>
+      <Value xsi:type="xsd:string">planet2_big.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>PlanetButton4.X</Name>
+      <Value xsi:type="xsd:float">354</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>PlanetButton4.Y</Name>
+      <Value xsi:type="xsd:float">141</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>PlanetButton5.PlanetSpriteSourceFile</Name>
+      <Value xsi:type="xsd:string">planet17_big.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>PlanetButton5.X</Name>
+      <Value xsi:type="xsd:float">950</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>PlanetButton5.Y</Name>
+      <Value xsi:type="xsd:float">74</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>PlanetButton6.PlanetSpriteSourceFile</Name>
+      <Value xsi:type="xsd:string">planet5_big.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>PlanetButton6.X</Name>
+      <Value xsi:type="xsd:float">1298</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>PlanetButton6.Y</Name>
+      <Value xsi:type="xsd:float">272</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>PlayerIsHereArrow.X</Name>
+      <Value xsi:type="xsd:float">713</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>HorizontalAlignment</Type>
+      <Name>PlayerIsHereArrow.X Origin</Name>
+      <Value xsi:type="xsd:int">1</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>PlayerIsHereArrow.Y</Name>
+      <Value xsi:type="xsd:float">640</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>VerticalAlignment</Type>
+      <Name>PlayerIsHereArrow.Y Origin</Name>
+      <Value xsi:type="xsd:int">2</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StarButton.CircleRadius</Name>
+      <Value xsi:type="xsd:float">300</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StarButton.Height</Name>
+      <Value xsi:type="xsd:float">750</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StarButton.StarSpriteSourceFile</Name>
+      <Value xsi:type="xsd:string">star_yellow03.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StarButton.Width</Name>
+      <Value xsi:type="xsd:float">750</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StarButton.X</Name>
+      <Value xsi:type="xsd:float">-233</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StarButton.Y</Name>
+      <Value xsi:type="xsd:float">428</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets1_2.BottomSourceFile</Name>
+      <Value xsi:type="xsd:string">red-bar-bullet1b.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_2.Height</Name>
+      <Value xsi:type="xsd:float">370</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_2.MiddleHeight</Name>
+      <Value xsi:type="xsd:float">338</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets1_2.MiddleSourceFile</Name>
+      <Value xsi:type="xsd:string">red-bar-bullet1m.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_2.Rotation</Name>
+      <Value xsi:type="xsd:float">95.19978</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>State</Type>
+      <Name>StripeBetweenPlanets1_2.State</Name>
+      <Value xsi:type="xsd:string">Default</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets1_2.TopSourceFile</Name>
+      <Value xsi:type="xsd:string">red-bar-bullet1t.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_2.X</Name>
+      <Value xsi:type="xsd:float">812</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_2.Y</Name>
+      <Value xsi:type="xsd:float">744</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets1_2_green.BottomSourceFile</Name>
+      <Value xsi:type="xsd:string">green-bar-bullet1b.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_2_green.Height</Name>
+      <Value xsi:type="xsd:float">370</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_2_green.MiddleHeight</Name>
+      <Value xsi:type="xsd:float">338</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets1_2_green.MiddleSourceFile</Name>
+      <Value xsi:type="xsd:string">green-bar-bullet1m.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_2_green.Rotation</Name>
+      <Value xsi:type="xsd:float">95.19978</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets1_2_green.TopSourceFile</Name>
+      <Value xsi:type="xsd:string">green-bar-bullet1t.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>bool</Type>
+      <Name>StripeBetweenPlanets1_2_green.Visible</Name>
+      <Value xsi:type="xsd:boolean">true</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_2_green.X</Name>
+      <Value xsi:type="xsd:float">812</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_2_green.Y</Name>
+      <Value xsi:type="xsd:float">744</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_2_red.Height</Name>
+      <Value xsi:type="xsd:float">370</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_2_red.MiddleHeight</Name>
+      <Value xsi:type="xsd:float">338</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_2_red.Rotation</Name>
+      <Value xsi:type="xsd:float">95.19978</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>bool</Type>
+      <Name>StripeBetweenPlanets1_2_red.Visible</Name>
+      <Value xsi:type="xsd:boolean">true</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_2_red.X</Name>
+      <Value xsi:type="xsd:float">812</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_2_red.Y</Name>
+      <Value xsi:type="xsd:float">744</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets1_3.BottomSourceFile</Name>
+      <Value xsi:type="xsd:string">red-bar-bullet1b.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_3.Height</Name>
+      <Value xsi:type="xsd:float">120</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_3.MiddleHeight</Name>
+      <Value xsi:type="xsd:float">88</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets1_3.MiddleSourceFile</Name>
+      <Value xsi:type="xsd:string">red-bar-bullet1m.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_3.Rotation</Name>
+      <Value xsi:type="xsd:float">170.646988</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>State</Type>
+      <Name>StripeBetweenPlanets1_3.State</Name>
+      <Value xsi:type="xsd:string">Default</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets1_3.TopSourceFile</Name>
+      <Value xsi:type="xsd:string">red-bar-bullet1t.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_3.X</Name>
+      <Value xsi:type="xsd:float">743</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_3.Y</Name>
+      <Value xsi:type="xsd:float">639</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets1_3_green.BottomSourceFile</Name>
+      <Value xsi:type="xsd:string">green-bar-bullet1b.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_3_green.Height</Name>
+      <Value xsi:type="xsd:float">120</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_3_green.MiddleHeight</Name>
+      <Value xsi:type="xsd:float">88</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets1_3_green.MiddleSourceFile</Name>
+      <Value xsi:type="xsd:string">green-bar-bullet1m.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_3_green.Rotation</Name>
+      <Value xsi:type="xsd:float">170.647</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets1_3_green.TopSourceFile</Name>
+      <Value xsi:type="xsd:string">green-bar-bullet1t.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>bool</Type>
+      <Name>StripeBetweenPlanets1_3_green.Visible</Name>
+      <Value xsi:type="xsd:boolean">true</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_3_green.X</Name>
+      <Value xsi:type="xsd:float">743</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_3_green.Y</Name>
+      <Value xsi:type="xsd:float">639</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_3_red.Height</Name>
+      <Value xsi:type="xsd:float">120</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_3_red.MiddleHeight</Name>
+      <Value xsi:type="xsd:float">88</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_3_red.Rotation</Name>
+      <Value xsi:type="xsd:float">170.647</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_3_red.X</Name>
+      <Value xsi:type="xsd:float">743</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets1_3_red.Y</Name>
+      <Value xsi:type="xsd:float">639</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets2_6.BottomSourceFile</Name>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets2_6.Height</Name>
+      <Value xsi:type="xsd:float">180</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets2_6.MiddleHeight</Name>
+      <Value xsi:type="xsd:float">148</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets2_6.MiddleSourceFile</Name>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets2_6.Rotation</Name>
+      <Value xsi:type="xsd:float">165.61676</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>State</Type>
+      <Name>StripeBetweenPlanets2_6.State</Name>
+      <Value xsi:type="xsd:string">Default</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets2_6.TopSourceFile</Name>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets2_6.X</Name>
+      <Value xsi:type="xsd:float">1311</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets2_6.Y</Name>
+      <Value xsi:type="xsd:float">606</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets2_6_green.BottomSourceFile</Name>
+      <Value xsi:type="xsd:string">green-bar-bullet1b.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets2_6_green.Height</Name>
+      <Value xsi:type="xsd:float">180</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets2_6_green.MiddleHeight</Name>
+      <Value xsi:type="xsd:float">148</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets2_6_green.MiddleSourceFile</Name>
+      <Value xsi:type="xsd:string">green-bar-bullet1m.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets2_6_green.Rotation</Name>
+      <Value xsi:type="xsd:float">165.6168</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets2_6_green.TopSourceFile</Name>
+      <Value xsi:type="xsd:string">green-bar-bullet1t.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>bool</Type>
+      <Name>StripeBetweenPlanets2_6_green.Visible</Name>
+      <Value xsi:type="xsd:boolean">true</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets2_6_green.X</Name>
+      <Value xsi:type="xsd:float">1311</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets2_6_green.Y</Name>
+      <Value xsi:type="xsd:float">606</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets2_6_red.Height</Name>
+      <Value xsi:type="xsd:float">180</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets2_6_red.MiddleHeight</Name>
+      <Value xsi:type="xsd:float">148</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets2_6_red.Rotation</Name>
+      <Value xsi:type="xsd:float">165.6168</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets2_6_red.X</Name>
+      <Value xsi:type="xsd:float">1311</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets2_6_red.Y</Name>
+      <Value xsi:type="xsd:float">606</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets3_4.BottomSourceFile</Name>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_4.Height</Name>
+      <Value xsi:type="xsd:float">200</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_4.MiddleHeight</Name>
+      <Value xsi:type="xsd:float">168</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets3_4.MiddleSourceFile</Name>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_4.Rotation</Name>
+      <Value xsi:type="xsd:float">57.7233925</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>State</Type>
+      <Name>StripeBetweenPlanets3_4.State</Name>
+      <Value xsi:type="xsd:string">Default</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets3_4.TopSourceFile</Name>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_4.Width</Name>
+      <Value xsi:type="xsd:float">22</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_4.X</Name>
+      <Value xsi:type="xsd:float">510</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_4.Y</Name>
+      <Value xsi:type="xsd:float">279</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets3_4_green.BottomSourceFile</Name>
+      <Value xsi:type="xsd:string">green-bar-bullet1b.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_4_green.Height</Name>
+      <Value xsi:type="xsd:float">200</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_4_green.MiddleHeight</Name>
+      <Value xsi:type="xsd:float">168</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets3_4_green.MiddleSourceFile</Name>
+      <Value xsi:type="xsd:string">green-bar-bullet1m.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_4_green.Rotation</Name>
+      <Value xsi:type="xsd:float">57.72339</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets3_4_green.TopSourceFile</Name>
+      <Value xsi:type="xsd:string">green-bar-bullet1t.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>bool</Type>
+      <Name>StripeBetweenPlanets3_4_green.Visible</Name>
+      <Value xsi:type="xsd:boolean">true</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_4_green.X</Name>
+      <Value xsi:type="xsd:float">510</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_4_green.Y</Name>
+      <Value xsi:type="xsd:float">279</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_4_red.Height</Name>
+      <Value xsi:type="xsd:float">200</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_4_red.MiddleHeight</Name>
+      <Value xsi:type="xsd:float">168</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_4_red.Rotation</Name>
+      <Value xsi:type="xsd:float">57.72339</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_4_red.X</Name>
+      <Value xsi:type="xsd:float">510</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_4_red.Y</Name>
+      <Value xsi:type="xsd:float">279</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets3_5.BottomSourceFile</Name>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_5.Height</Name>
+      <Value xsi:type="xsd:float">180</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_5.MiddleHeight</Name>
+      <Value xsi:type="xsd:float">148</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets3_5.MiddleSourceFile</Name>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_5.Rotation</Name>
+      <Value xsi:type="xsd:float">138.831543</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>State</Type>
+      <Name>StripeBetweenPlanets3_5.State</Name>
+      <Value xsi:type="xsd:string">Default</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets3_5.TopSourceFile</Name>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_5.X</Name>
+      <Value xsi:type="xsd:float">846</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_5.Y</Name>
+      <Value xsi:type="xsd:float">364</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets3_5_green.BottomSourceFile</Name>
+      <Value xsi:type="xsd:string">green-bar-bullet1b.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_5_green.Height</Name>
+      <Value xsi:type="xsd:float">180</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_5_green.MiddleHeight</Name>
+      <Value xsi:type="xsd:float">148</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets3_5_green.MiddleSourceFile</Name>
+      <Value xsi:type="xsd:string">green-bar-bullet1m.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_5_green.Rotation</Name>
+      <Value xsi:type="xsd:float">138.8315</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets3_5_green.TopSourceFile</Name>
+      <Value xsi:type="xsd:string">green-bar-bullet1t.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>bool</Type>
+      <Name>StripeBetweenPlanets3_5_green.Visible</Name>
+      <Value xsi:type="xsd:boolean">true</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_5_green.X</Name>
+      <Value xsi:type="xsd:float">846</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_5_green.Y</Name>
+      <Value xsi:type="xsd:float">364</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_5_red.Height</Name>
+      <Value xsi:type="xsd:float">180</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_5_red.MiddleHeight</Name>
+      <Value xsi:type="xsd:float">148</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_5_red.Rotation</Name>
+      <Value xsi:type="xsd:float">138.8315</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_5_red.X</Name>
+      <Value xsi:type="xsd:float">846</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets3_5_red.Y</Name>
+      <Value xsi:type="xsd:float">364</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets5_6.BottomSourceFile</Name>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets5_6.Height</Name>
+      <Value xsi:type="xsd:float">205</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets5_6.MiddleHeight</Name>
+      <Value xsi:type="xsd:float">173</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets5_6.MiddleSourceFile</Name>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets5_6.Rotation</Name>
+      <Value xsi:type="xsd:float">59.88179</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>State</Type>
+      <Name>StripeBetweenPlanets5_6.State</Name>
+      <Value xsi:type="xsd:string">Default</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets5_6.TopSourceFile</Name>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets5_6.X</Name>
+      <Value xsi:type="xsd:float">1107</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets5_6.Y</Name>
+      <Value xsi:type="xsd:float">196</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets5_6_green.BottomSourceFile</Name>
+      <Value xsi:type="xsd:string">green-bar-bullet1b.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets5_6_green.Height</Name>
+      <Value xsi:type="xsd:float">205</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets5_6_green.MiddleHeight</Name>
+      <Value xsi:type="xsd:float">173</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets5_6_green.MiddleSourceFile</Name>
+      <Value xsi:type="xsd:string">green-bar-bullet1m.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets5_6_green.Rotation</Name>
+      <Value xsi:type="xsd:float">59.88179</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>StripeBetweenPlanets5_6_green.TopSourceFile</Name>
+      <Value xsi:type="xsd:string">green-bar-bullet1t.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>bool</Type>
+      <Name>StripeBetweenPlanets5_6_green.Visible</Name>
+      <Value xsi:type="xsd:boolean">true</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets5_6_green.X</Name>
+      <Value xsi:type="xsd:float">1107</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets5_6_green.Y</Name>
+      <Value xsi:type="xsd:float">196</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets5_6_red.Height</Name>
+      <Value xsi:type="xsd:float">205</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets5_6_red.MiddleHeight</Name>
+      <Value xsi:type="xsd:float">173</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets5_6_red.Rotation</Name>
+      <Value xsi:type="xsd:float">59.88179</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets5_6_red.X</Name>
+      <Value xsi:type="xsd:float">1107</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StripeBetweenPlanets5_6_red.Y</Name>
+      <Value xsi:type="xsd:float">196</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <VariableList xsi:type="VariableListSaveOfString">
+      <Type>string</Type>
+      <Name>AnimationFrames</Name>
+      <IsFile>false</IsFile>
+      <IsHiddenInPropertyGrid>false</IsHiddenInPropertyGrid>
+      <Value />
+    </VariableList>
+  </State>
+  <Instance>
+    <Name>Background</Name>
+    <BaseType>Sprite</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>PlanetButton1</Name>
+    <BaseType>PlanetButton</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>StarButton</Name>
+    <BaseType>StarButton</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>PlanetButton2</Name>
+    <BaseType>PlanetButton</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>PlanetButton6</Name>
+    <BaseType>PlanetButton</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>PlanetButton4</Name>
+    <BaseType>PlanetButton</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>PlanetButton3</Name>
+    <BaseType>PlanetButton</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>PlanetButton5</Name>
+    <BaseType>PlanetButton</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>StripeBetweenPlanets1_2_green</Name>
+    <BaseType>StripeBetweenPlanets</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>StripeBetweenPlanets1_3_green</Name>
+    <BaseType>StripeBetweenPlanets</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>StripeBetweenPlanets3_4_green</Name>
+    <BaseType>StripeBetweenPlanets</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>StripeBetweenPlanets3_5_green</Name>
+    <BaseType>StripeBetweenPlanets</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>StripeBetweenPlanets5_6_green</Name>
+    <BaseType>StripeBetweenPlanets</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>StripeBetweenPlanets2_6_green</Name>
+    <BaseType>StripeBetweenPlanets</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>StripeBetweenPlanets1_2_red</Name>
+    <BaseType>StripeBetweenPlanets</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>StripeBetweenPlanets1_3_red</Name>
+    <BaseType>StripeBetweenPlanets</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>StripeBetweenPlanets3_4_red</Name>
+    <BaseType>StripeBetweenPlanets</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>StripeBetweenPlanets3_5_red</Name>
+    <BaseType>StripeBetweenPlanets</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>StripeBetweenPlanets5_6_red</Name>
+    <BaseType>StripeBetweenPlanets</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>StripeBetweenPlanets2_6_red</Name>
+    <BaseType>StripeBetweenPlanets</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>PlayerIsHereArrow</Name>
+    <BaseType>PlayerIsHereArrow</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+</ScreenSave>

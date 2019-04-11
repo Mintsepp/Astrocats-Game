@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AnimationChainArraySave xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FileRelativeTextures>true</FileRelativeTextures>
+  <TimeMeasurementUnit>Undefined</TimeMeasurementUnit>
+  <CoordinateType>Pixel</CoordinateType>
+  <AnimationChain>
+    <Name>Thruster</Name>
+    <Frame>
+      <TextureName>vertical_thrust_01.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>15</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>16</BottomCoordinate>
+    </Frame>
+    <Frame>
+      <TextureName>vertical_thrust_02.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>15</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>16</BottomCoordinate>
+    </Frame>
+    <Frame>
+      <TextureName>vertical_thrust_03.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>15</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>16</BottomCoordinate>
+    </Frame>
+    <Frame>
+      <TextureName>vertical_thrust_04.png</TextureName>
+      <FrameLength>0.1</FrameLength>
+      <LeftCoordinate>0</LeftCoordinate>
+      <RightCoordinate>15</RightCoordinate>
+      <TopCoordinate>0</TopCoordinate>
+      <BottomCoordinate>16</BottomCoordinate>
+    </Frame>
+  </AnimationChain>
+</AnimationChainArraySave>

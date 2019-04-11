@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScreenSave xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>CharacterMenuGum</Name>
+  <State>
+    <Name>Default</Name>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>SelectShip1Button.BackgroundImageSourceFile</Name>
+      <Value xsi:type="xsd:string">../../../../../Assets/lythtronax/bright_galaxy_background_by_lythronax_d6uzrxt.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>SelectShip1Button.CharacterDescriptionText</Name>
+      <Value xsi:type="xsd:string">This is 1st ship</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>SelectShip1Button.CharacterNameText</Name>
+      <Value xsi:type="xsd:string">Ship 1</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>SelectShip1Button.PlayerSelectionText</Name>
+      <ExposedAsName>SelectShip1ButtonPlayerSelectionText</ExposedAsName>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>SelectShip1Button.Upgrade1SourceFile</Name>
+      <ExposedAsName>SelectShip1ButtonUpgrade1SourceFile</ExposedAsName>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>SelectShip1Button.Upgrade2SourceFile</Name>
+      <ExposedAsName>SelectShip1ButtonUpgrade2SourceFile</ExposedAsName>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>SelectShip1Button.X</Name>
+      <Value xsi:type="xsd:float">358</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>SelectShip1Button.Y</Name>
+      <Value xsi:type="xsd:float">88</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>SelectShip2Button.CharacterDescriptionText</Name>
+      <Value xsi:type="xsd:string">This is 2nd ship</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>SelectShip2Button.CharacterNameText</Name>
+      <Value xsi:type="xsd:string">Ship 2</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>SelectShip2Button.PlayerSelectionText</Name>
+      <ExposedAsName>SelectShip2ButtonPlayerSelectionText</ExposedAsName>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>SelectShip2Button.Upgrade1SourceFile</Name>
+      <ExposedAsName>SelectShip2ButtonUpgrade1SourceFile</ExposedAsName>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>SelectShip2Button.Upgrade2SourceFile</Name>
+      <ExposedAsName>SelectShip2ButtonUpgrade2SourceFile</ExposedAsName>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>SelectShip2Button.X</Name>
+      <Value xsi:type="xsd:float">579</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>SelectShip2Button.Y</Name>
+      <Value xsi:type="xsd:float">88</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>SelectShip3Button.CharacterDescriptionText</Name>
+      <Value xsi:type="xsd:string">This is 3rd ship</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>SelectShip3Button.CharacterNameText</Name>
+      <Value xsi:type="xsd:string">Ship 3</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>SelectShip3Button.PlayerSelectionText</Name>
+      <ExposedAsName>SelectShip3ButtonPlayerSelectionText</ExposedAsName>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>SelectShip3Button.Upgrade1SourceFile</Name>
+      <ExposedAsName>SelectShip3ButtonUpgrade1SourceFile</ExposedAsName>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>SelectShip3Button.Upgrade2SourceFile</Name>
+      <ExposedAsName>SelectShip3ButtonUpgrade2SourceFile</ExposedAsName>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>SelectShip3Button.X</Name>
+      <Value xsi:type="xsd:float">805</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>SelectShip3Button.Y</Name>
+      <Value xsi:type="xsd:float">85</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>SelectShip4Button.CharacterDescriptionText</Name>
+      <Value xsi:type="xsd:string">This is 4th ship</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>SelectShip4Button.CharacterNameText</Name>
+      <Value xsi:type="xsd:string">Ship 4</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>SelectShip4Button.PlayerSelectionText</Name>
+      <ExposedAsName>SelectShip4ButtonPlayerSelectionText</ExposedAsName>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>SelectShip4Button.Upgrade1SourceFile</Name>
+      <ExposedAsName>SelectShip4ButtonUpgrade1SourceFile</ExposedAsName>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>SelectShip4Button.Upgrade2SourceFile</Name>
+      <ExposedAsName>SelectShip4ButtonUpgrade2SourceFile</ExposedAsName>
+      <SetsValue>false</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>SelectShip4Button.X</Name>
+      <Value xsi:type="xsd:float">1027</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>SelectShip4Button.Y</Name>
+      <Value xsi:type="xsd:float">85</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>StartButton.OptionText</Name>
+      <Value xsi:type="xsd:string">Start</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StartButton.X</Name>
+      <Value xsi:type="xsd:float">-3</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>StartButton.Y</Name>
+      <Value xsi:type="xsd:float">340</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+  </State>
+  <Instance>
+    <Name>SelectShip1Button</Name>
+    <BaseType>SelectShipButton</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>SelectShip2Button</Name>
+    <BaseType>SelectShipButton</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>SelectShip3Button</Name>
+    <BaseType>SelectShipButton</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>SelectShip4Button</Name>
+    <BaseType>SelectShipButton</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>StartButton</Name>
+    <BaseType>MainMenuButton</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+</ScreenSave>

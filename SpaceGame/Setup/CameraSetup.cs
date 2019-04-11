@@ -31,8 +31,8 @@
             public static CameraSetupData Data = new CameraSetupData
             {
                 Scale = 100f,
-                ResolutionWidth = 800,
-                ResolutionHeight = 600,
+                ResolutionWidth = 1600,
+                ResolutionHeight = 900,
                 Is2D = true,
                 IsFullScreen = false,
                 AllowWidowResizing = false,

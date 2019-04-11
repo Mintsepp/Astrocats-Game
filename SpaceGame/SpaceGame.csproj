@@ -39,13 +39,303 @@
     <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Entities\Asterice.cs" />
+    <Compile Include="Entities\Asterice.Generated.cs">
+      <DependentUpon>Asterice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\Bullet.cs" />
+    <Compile Include="Entities\Bullet.Generated.cs">
+      <DependentUpon>Bullet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\EnemyJumper.cs" />
+    <Compile Include="Entities\EnemyJumper.Generated.cs">
+      <DependentUpon>EnemyJumper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\EnemyKamikaze.cs" />
+    <Compile Include="Entities\EnemyKamikaze.Generated.cs">
+      <DependentUpon>EnemyKamikaze.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\EnemySpawner.cs" />
+    <Compile Include="Entities\EnemySpawner.Generated.cs">
+      <DependentUpon>EnemySpawner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\EnemySpinner.cs" />
+    <Compile Include="Entities\EnemySpinner.Generated.cs">
+      <DependentUpon>EnemySpinner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\Explosion.cs" />
+    <Compile Include="Entities\Explosion.Generated.cs">
+      <DependentUpon>Explosion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\IsolatedStorageSaveManager.cs" />
+    <Compile Include="Entities\IsolatedStorageSaveManager.Generated.cs">
+      <DependentUpon>IsolatedStorageSaveManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\MainShip.cs" />
+    <Compile Include="Entities\MainShip.Generated.cs">
+      <DependentUpon>MainShip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\SaveData.cs" />
+    <Compile Include="Entities\SaveData.Generated.cs">
+      <DependentUpon>SaveData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\SaveManager.cs" />
+    <Compile Include="Entities\SaveManager.Generated.cs">
+      <DependentUpon>SaveManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\TravelBackground.cs" />
+    <Compile Include="Entities\TravelBackground.Generated.cs">
+      <DependentUpon>TravelBackground.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Factories\AstericeFactory.Generated.cs" />
+    <Compile Include="Factories\BulletFactory.Generated.cs" />
+    <Compile Include="Factories\EnemyJumperFactory.Generated.cs" />
+    <Compile Include="Factories\EnemyKamikazeFactory.Generated.cs" />
+    <Compile Include="Factories\EnemySpinnerFactory.Generated.cs" />
+    <Compile Include="Factories\ExplosionFactory.Generated.cs" />
+    <Compile Include="Factories\MainShipFactory.Generated.cs" />
     <Compile Include="FileAliases.Generated.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="GlobalContent.Generated.cs" />
+    <Compile Include="GumRuntimes\Behaviors\IAnimated.Generated.cs" />
+    <Compile Include="GumRuntimes\CharacterMenuGumRuntime.cs" />
+    <Compile Include="GumRuntimes\CharacterMenuGumRuntime.Generated.cs">
+      <DependentUpon>CharacterMenuGumRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\CircleRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\ColoredRectangleRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\ContainerRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\DeleteSaveButtonRuntime.cs" />
+    <Compile Include="GumRuntimes\DeleteSaveButtonRuntime.Generated.cs">
+      <DependentUpon>DeleteSaveButtonRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\DeleteSavePopupRuntime.cs" />
+    <Compile Include="GumRuntimes\DeleteSavePopupRuntime.Generated.cs">
+      <DependentUpon>DeleteSavePopupRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\GumIdb.Generated.cs" />
+    <Compile Include="GumRuntimes\HealthBarRuntime.cs" />
+    <Compile Include="GumRuntimes\HealthBarRuntime.Generated.cs">
+      <DependentUpon>HealthBarRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\MainMenuButtonRuntime.cs" />
+    <Compile Include="GumRuntimes\MainMenuButtonRuntime.Generated.cs">
+      <DependentUpon>MainMenuButtonRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\MainMenuGumRuntime.cs" />
+    <Compile Include="GumRuntimes\MainMenuGumRuntime.Generated.cs">
+      <DependentUpon>MainMenuGumRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\MainShipTestGumRuntime.cs" />
+    <Compile Include="GumRuntimes\MainShipTestGumRuntime.Generated.cs">
+      <DependentUpon>MainShipTestGumRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Map1GumRuntime.cs" />
+    <Compile Include="GumRuntimes\Map1GumRuntime.Generated.cs">
+      <DependentUpon>Map1GumRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Map2GumRuntime.cs" />
+    <Compile Include="GumRuntimes\Map2GumRuntime.Generated.cs">
+      <DependentUpon>Map2GumRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Map3GumRuntime.cs" />
+    <Compile Include="GumRuntimes\Map3GumRuntime.Generated.cs">
+      <DependentUpon>Map3GumRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\MapScreenGumRuntime.cs" />
+    <Compile Include="GumRuntimes\MapScreenGumRuntime.Generated.cs">
+      <DependentUpon>MapScreenGumRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\NineSliceButtonRuntime.cs" />
+    <Compile Include="GumRuntimes\NineSliceButtonRuntime.Generated.cs">
+      <DependentUpon>NineSliceButtonRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\NineSliceRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\PlanetButtonRuntime.cs" />
+    <Compile Include="GumRuntimes\PlanetButtonRuntime.Generated.cs">
+      <DependentUpon>PlanetButtonRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\PlayerIsHereArrowRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\PlayMenuGumRuntime.cs" />
+    <Compile Include="GumRuntimes\PlayMenuGumRuntime.Generated.cs">
+      <DependentUpon>PlayMenuGumRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\PolygonRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\RectangleRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\ScoreBarRuntime.cs" />
+    <Compile Include="GumRuntimes\ScoreBarRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\SelectSaveButtonRuntime.cs" />
+    <Compile Include="GumRuntimes\SelectSaveButtonRuntime.Generated.cs">
+      <DependentUpon>SelectSaveButtonRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\SelectShipButtonRuntime.cs" />
+    <Compile Include="GumRuntimes\SelectShipButtonRuntime.Generated.cs">
+      <DependentUpon>SelectShipButtonRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\ShieldBarRuntime.cs" />
+    <Compile Include="GumRuntimes\ShieldBarRuntime.Generated.cs">
+      <DependentUpon>ShieldBarRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Shop1GumRuntime.cs" />
+    <Compile Include="GumRuntimes\Shop1GumRuntime.Generated.cs">
+      <DependentUpon>Shop1GumRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\ShopScreenGumRuntime.cs" />
+    <Compile Include="GumRuntimes\ShopScreenGumRuntime.Generated.cs">
+      <DependentUpon>ShopScreenGumRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\SpecialBarRuntime.cs" />
+    <Compile Include="GumRuntimes\SpecialBarRuntime.Generated.cs">
+      <DependentUpon>SpecialBarRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\SpriteRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\StarButtonRuntime.cs" />
+    <Compile Include="GumRuntimes\StarButtonRuntime.Generated.cs">
+      <DependentUpon>StarButtonRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\StartButtonRuntime.cs" />
+    <Compile Include="GumRuntimes\StartButtonRuntime.Generated.cs">
+      <DependentUpon>StartButtonRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\StartMenuGumRuntime.cs" />
+    <Compile Include="GumRuntimes\StartMenuGumRuntime.Generated.cs">
+      <DependentUpon>StartMenuGumRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\StripeBetweenPlanetsRuntime.cs" />
+    <Compile Include="GumRuntimes\StripeBetweenPlanetsRuntime.Generated.cs">
+      <DependentUpon>StripeBetweenPlanetsRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\TestEndScreenGumRuntime.cs" />
+    <Compile Include="GumRuntimes\TestEndScreenGumRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\TestLevelGumRuntime.cs" />
+    <Compile Include="GumRuntimes\TestLevelGumRuntime.Generated.cs">
+      <DependentUpon>TestLevelGumRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\TestMenuGumRuntime.cs" />
+    <Compile Include="GumRuntimes\TestMenuGumRuntime.Generated.cs">
+      <DependentUpon>TestMenuGumRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\TextRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\TextTestRuntime.cs" />
+    <Compile Include="GumRuntimes\TextTestRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\TravelScreenGumRuntime.cs" />
+    <Compile Include="GumRuntimes\TravelScreenGumRuntime.Generated.cs">
+      <DependentUpon>TravelScreenGumRuntime.cs</DependentUpon>
+    </Compile>
     <Compile Include="Performance\IEntityFactory.Generated.cs" />
     <Compile Include="Performance\PoolList.Generated.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Screens\CharacterMenu.cs" />
+    <Compile Include="Screens\CharacterMenu.Event.cs">
+      <DependentUpon>CharacterMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\CharacterMenu.Generated.cs">
+      <DependentUpon>CharacterMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\CharacterMenu.Generated.Event.cs">
+      <DependentUpon>CharacterMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\KamikazeTest.cs" />
+    <Compile Include="Screens\KamikazeTest.Generated.cs">
+      <DependentUpon>KamikazeTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\MainMenu.cs" />
+    <Compile Include="Screens\MainMenu.Event.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\MainMenu.Generated.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\MainMenu.Generated.Event.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\MainShipTest.cs" />
+    <Compile Include="Screens\MainShipTest.Generated.cs">
+      <DependentUpon>MainShipTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Map1.cs" />
+    <Compile Include="Screens\Map1.Event.cs">
+      <DependentUpon>Map1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Map1.Generated.cs">
+      <DependentUpon>Map1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Map1.Generated.Event.cs">
+      <DependentUpon>Map1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Map2.cs" />
+    <Compile Include="Screens\Map2.Generated.cs">
+      <DependentUpon>Map2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Map3.cs" />
+    <Compile Include="Screens\Map3.Generated.cs">
+      <DependentUpon>Map3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\MapScreen.cs" />
+    <Compile Include="Screens\MapScreen.Generated.cs">
+      <DependentUpon>MapScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\PlayMenu.cs" />
+    <Compile Include="Screens\PlayMenu.Event.cs">
+      <DependentUpon>PlayMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\PlayMenu.Generated.cs">
+      <DependentUpon>PlayMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\PlayMenu.Generated.Event.cs">
+      <DependentUpon>PlayMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Shop1.cs" />
+    <Compile Include="Screens\Shop1.Event.cs">
+      <DependentUpon>Shop1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Shop1.Generated.cs">
+      <DependentUpon>Shop1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Shop1.Generated.Event.cs">
+      <DependentUpon>Shop1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\ShopScreen.cs" />
+    <Compile Include="Screens\ShopScreen.Generated.cs">
+      <DependentUpon>ShopScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\SpinnerTest.cs" />
+    <Compile Include="Screens\SpinnerTest.Generated.cs">
+      <DependentUpon>SpinnerTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\StartMenu.cs" />
+    <Compile Include="Screens\StartMenu.Event.cs">
+      <DependentUpon>StartMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\StartMenu.Generated.cs">
+      <DependentUpon>StartMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\StartMenu.Generated.Event.cs">
+      <DependentUpon>StartMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TestEndScreen.cs" />
+    <Compile Include="Screens\TestEndScreen.Generated.cs">
+      <DependentUpon>TestEndScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TestLevel.cs" />
+    <Compile Include="Screens\TestLevel.Generated.cs">
+      <DependentUpon>TestLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TestMenu.cs" />
+    <Compile Include="Screens\TestMenu.Event.cs">
+      <DependentUpon>TestMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TestMenu.Generated.cs">
+      <DependentUpon>TestMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TestMenu.Generated.Event.cs">
+      <DependentUpon>TestMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TravelScreen.cs" />
+    <Compile Include="Screens\TravelScreen.Generated.cs">
+      <DependentUpon>TravelScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Setup\CameraSetup.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -84,6 +374,766 @@
     <Content Include="Content\shader.xnb">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="content\entities\asterice\blueanimation.achx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>BlueAnimation</Name>
+    </None>
+    <None Include="content\entities\asterice\gem1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Gem1</Name>
+    </None>
+    <None Include="content\entities\asterice\gem2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Gem2</Name>
+    </None>
+    <None Include="content\entities\asterice\gem3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Gem3</Name>
+    </None>
+    <None Include="content\entities\asterice\gem4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Gem4</Name>
+    </None>
+    <None Include="content\entities\asterice\orangeanimation.achx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>OrangeAnimation</Name>
+    </None>
+    <None Include="content\entities\asterice\purpleanimation.achx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>PurpleAnimation</Name>
+    </None>
+    <None Include="content\entities\asterice\yellowanimation.achx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>YellowAnimation</Name>
+    </None>
+    <None Include="content\entities\bullet\projectile_blue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>projectile_blue</Name>
+    </None>
+    <None Include="content\entities\bullet\projectile_darkgey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>projectile_darkgey</Name>
+    </None>
+    <None Include="content\entities\bullet\projectile_green.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>projectile_green</Name>
+    </None>
+    <None Include="content\entities\bullet\projectile_metallic.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>projectile_metallic</Name>
+    </None>
+    <None Include="content\entities\bullet\projectile_orange.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>projectile_orange</Name>
+    </None>
+    <None Include="content\entities\bullet\projectile_purple.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>projectile_purple</Name>
+    </None>
+    <None Include="content\entities\bullet\projectile_red.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>projectile_red</Name>
+    </None>
+    <None Include="content\entities\enemyjumper\darkgrey_01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>darkgrey_01</Name>
+    </None>
+    <None Include="content\entities\enemyjumper\metalic_01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>metalic_01</Name>
+    </None>
+    <None Include="content\entities\enemyjumper\purple_03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>purple_03</Name>
+    </None>
+    <None Include="content\entities\enemykamikaze\darkgrey_04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>darkgrey_04</Name>
+    </None>
+    <None Include="content\entities\enemykamikaze\metalic_03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>metalic_03</Name>
+    </None>
+    <None Include="content\entities\enemykamikaze\purple_02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>purple_02</Name>
+    </None>
+    <None Include="content\entities\enemykamikaze\thrusteranimation.achx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>ThrusterAnimation</Name>
+    </None>
+    <None Include="content\entities\enemykamikaze\vertical_thrust_01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>vertical_thrust_01</Name>
+    </None>
+    <None Include="content\entities\enemykamikaze\vertical_thrust_02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>vertical_thrust_02</Name>
+    </None>
+    <None Include="content\entities\enemykamikaze\vertical_thrust_03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>vertical_thrust_03</Name>
+    </None>
+    <None Include="content\entities\enemykamikaze\vertical_thrust_04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>vertical_thrust_04</Name>
+    </None>
+    <None Include="content\entities\enemyspinner\darkgrey_03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>darkgrey_03</Name>
+    </None>
+    <None Include="content\entities\enemyspinner\metalic_04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>metalic_04</Name>
+    </None>
+    <None Include="content\entities\enemyspinner\purple_05.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>purple_05</Name>
+    </None>
+    <None Include="content\entities\explosion\explosion-01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>explosion-01</Name>
+    </None>
+    <None Include="content\entities\explosion\explosion-02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>explosion-02</Name>
+    </None>
+    <None Include="content\entities\explosion\explosion-03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>explosion-03</Name>
+    </None>
+    <None Include="content\entities\explosion\explosion-04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>explosion-04</Name>
+    </None>
+    <None Include="content\entities\explosion\explosion-05.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>explosion-05</Name>
+    </None>
+    <None Include="content\entities\explosion\explosion-06.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>explosion-06</Name>
+    </None>
+    <None Include="content\entities\explosion\explosion-07.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>explosion-07</Name>
+    </None>
+    <None Include="content\entities\explosion\explosion-08.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>explosion-08</Name>
+    </None>
+    <None Include="content\entities\explosion\explosion-09.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>explosion-09</Name>
+    </None>
+    <None Include="content\entities\explosion\explosion-10.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>explosion-10</Name>
+    </None>
+    <None Include="content\entities\explosion\explosion-11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>explosion-11</Name>
+    </None>
+    <None Include="content\entities\explosion\explosionanimation.achx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>ExplosionAnimation</Name>
+    </None>
+    <None Include="content\entities\mainship\blue_05.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>blue_05</Name>
+    </None>
+    <None Include="content\entities\mainship\green_02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>green_02</Name>
+    </None>
+    <None Include="content\entities\mainship\orange_02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>orange_02</Name>
+    </None>
+    <None Include="content\entities\mainship\red_03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>red_03</Name>
+    </None>
+    <None Include="content\entities\mainship\thrusteranimation.achx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>ThrusterAnimation</Name>
+    </None>
+    <None Include="content\entities\mainship\vertical_thrust_01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>vertical_thrust_01</Name>
+    </None>
+    <None Include="content\entities\mainship\vertical_thrust_02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>vertical_thrust_02</Name>
+    </None>
+    <None Include="content\entities\mainship\vertical_thrust_03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>vertical_thrust_03</Name>
+    </None>
+    <None Include="content\entities\mainship\vertical_thrust_04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>vertical_thrust_04</Name>
+    </None>
+    <None Include="content\entities\playerisherearrow\green-arrow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>green-arrow</Name>
+    </None>
+    <None Include="content\entities\travelbackground\nebula_aqua_pink.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Nebula_Aqua_Pink</Name>
+    </None>
+    <None Include="content\entities\travelbackground\nebula_blue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Nebula_Blue</Name>
+    </None>
+    <None Include="content\entities\travelbackground\nebula_green.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Nebula_Green</Name>
+    </None>
+    <None Include="content\entities\travelbackground\nebula_orange_blue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Nebula_Orange_Blue</Name>
+    </None>
+    <None Include="content\entities\travelbackground\nebula_purple.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Nebula_Purple</Name>
+    </None>
+    <None Include="content\entities\travelbackground\nebula_red.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Nebula_Red</Name>
+    </None>
+    <None Include="content\entities\travelbackground\stars_big_1_1_pc.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Stars_Big_1_1_PC</Name>
+    </None>
+    <None Include="content\entities\travelbackground\stars_big_1_2_pc.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Stars_Big_1_2_PC</Name>
+    </None>
+    <None Include="content\entities\travelbackground\stars_small_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Stars_Small_1</Name>
+    </None>
+    <None Include="content\entities\travelbackground\stars_small_2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Stars_Small_2</Name>
+    </None>
+    <None Include="content\gumproject\components\deletesavebutton.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>deletesavebutton</Name>
+    </None>
+    <None Include="content\gumproject\components\deletesavepopup.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>deletesavepopup</Name>
+    </None>
+    <None Include="content\gumproject\components\healthbar.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>healthbar</Name>
+    </None>
+    <None Include="content\gumproject\components\mainmenubutton.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>mainmenubutton</Name>
+    </None>
+    <None Include="content\gumproject\components\nineslicebutton.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>nineslicebutton</Name>
+    </None>
+    <None Include="content\gumproject\components\planetbutton.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>planetbutton</Name>
+    </None>
+    <None Include="content\gumproject\components\playerisherearrow.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>playerisherearrow</Name>
+    </None>
+    <None Include="content\gumproject\components\scorebar.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>scorebar</Name>
+    </None>
+    <None Include="content\gumproject\components\selectsavebutton.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>selectsavebutton</Name>
+    </None>
+    <None Include="content\gumproject\components\selectshipbutton.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>selectshipbutton</Name>
+    </None>
+    <None Include="content\gumproject\components\shieldbar.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>shieldbar</Name>
+    </None>
+    <None Include="content\gumproject\components\specialbar.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>specialbar</Name>
+    </None>
+    <None Include="content\gumproject\components\starbutton.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>starbutton</Name>
+    </None>
+    <None Include="content\gumproject\components\startbutton.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>startbutton</Name>
+    </None>
+    <None Include="content\gumproject\components\stripebetweenplanets.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>stripebetweenplanets</Name>
+    </None>
+    <None Include="content\gumproject\components\texttest.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>texttest</Name>
+    </None>
+    <None Include="content\gumproject\cosmic_kitten.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>cosmic_kitten</Name>
+    </None>
+    <None Include="content\gumproject\energiebar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>energiebar</Name>
+    </None>
+    <None Include="content\gumproject\energiebar2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>energiebar2</Name>
+    </None>
+    <None Include="content\gumproject\energiebarcolor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>energiebarcolor</Name>
+    </None>
+    <None Include="content\gumproject\energiebarcolor3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>energiebarcolor3</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font18arial.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>font18arial</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font18arial_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font18Arial_0</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font200fixedsys_excelsior_2.00.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>font200fixedsys_excelsior_2.00</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font200fixedsys_excelsior_2.00_00.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font200Fixedsys_Excelsior_2.00_00</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font200fixedsys_excelsior_2.00_01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font200Fixedsys_Excelsior_2.00_01</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font200fixedsys_excelsior_2.00_02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font200Fixedsys_Excelsior_2.00_02</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font200fixedsys_excelsior_2.00_03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font200Fixedsys_Excelsior_2.00_03</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font200fixedsys_excelsior_2.00_04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font200Fixedsys_Excelsior_2.00_04</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font200fixedsys_excelsior_2.00_05.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font200Fixedsys_Excelsior_2.00_05</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font200fixedsys_excelsior_2.00_06.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font200Fixedsys_Excelsior_2.00_06</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font200fixedsys_excelsior_2.00_07.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font200Fixedsys_Excelsior_2.00_07</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font200fixedsys_excelsior_2.00_08.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font200Fixedsys_Excelsior_2.00_08</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font200fixedsys_excelsior_2.00_09.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font200Fixedsys_Excelsior_2.00_09</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font200fixedsys_excelsior_2.00_10.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font200Fixedsys_Excelsior_2.00_10</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font200fixedsys_excelsior_2.00_11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font200Fixedsys_Excelsior_2.00_11</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font200fixedsys_excelsior_2.00_12.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font200Fixedsys_Excelsior_2.00_12</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font200fixedsys_excelsior_2.00_13.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font200Fixedsys_Excelsior_2.00_13</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font200fixedsys_excelsior_2.00_14.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font200Fixedsys_Excelsior_2.00_14</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font200fixedsys_excelsior_2.00_15.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font200Fixedsys_Excelsior_2.00_15</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font200fixedsys_excelsior_2.00_16.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font200Fixedsys_Excelsior_2.00_16</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font200fixedsys_excelsior_2.00_17.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font200Fixedsys_Excelsior_2.00_17</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font25arial.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>font25arial</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font25arial_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font25Arial_0</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font30arial.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>font30arial</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font30arial_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font30Arial_0</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font50arial.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>font50arial</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font50arial_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font50Arial_0</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font50arial_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font50Arial_1</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font50fixedsys_excelsior_2.00.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>font50fixedsys_excelsior_2.00</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font50fixedsys_excelsior_2.00_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font50Fixedsys_Excelsior_2.00_0</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font50fixedsys_excelsior_2.00_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font50Fixedsys_Excelsior_2.00_1</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font60arial.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>font60arial</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font60arial_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font60Arial_0</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font60arial_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font60Arial_1</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font70arial.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>font70arial</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font70arial_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font70Arial_0</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font70arial_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font70Arial_1</Name>
+    </None>
+    <None Include="content\gumproject\fontcache\font70arial_2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font70Arial_2</Name>
+    </None>
+    <None Include="content\gumproject\green-bar-bullet1b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>green-bar-bullet1b</Name>
+    </None>
+    <None Include="content\gumproject\green-bar-bullet1m.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>green-bar-bullet1m</Name>
+    </None>
+    <None Include="content\gumproject\green-bar-bullet1t.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>green-bar-bullet1t</Name>
+    </None>
+    <None Include="content\gumproject\green_arrow_one.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>green_arrow_one</Name>
+    </None>
+    <None Include="content\gumproject\gumproject.gumx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>GumProject</Name>
+    </None>
+    <None Include="content\gumproject\healthbar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>healthbar</Name>
+    </None>
+    <None Include="content\gumproject\healthbarcolor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>healthbarcolor</Name>
+    </None>
+    <None Include="content\gumproject\planet10_big.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>planet10_big</Name>
+    </None>
+    <None Include="content\gumproject\planet11_big.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>planet11_big</Name>
+    </None>
+    <None Include="content\gumproject\planet12_big.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>planet12_big</Name>
+    </None>
+    <None Include="content\gumproject\planet13_big.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>planet13_big</Name>
+    </None>
+    <None Include="content\gumproject\planet14_big.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>planet14_big</Name>
+    </None>
+    <None Include="content\gumproject\planet15_big.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>planet15_big</Name>
+    </None>
+    <None Include="content\gumproject\planet17_big.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>planet17_big</Name>
+    </None>
+    <None Include="content\gumproject\planet18_big.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>planet18_big</Name>
+    </None>
+    <None Include="content\gumproject\planet19_big.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>planet19_big</Name>
+    </None>
+    <None Include="content\gumproject\planet1_big.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>planet1_big</Name>
+    </None>
+    <None Include="content\gumproject\planet2_big.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>planet2_big</Name>
+    </None>
+    <None Include="content\gumproject\planet3_big.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>planet3_big</Name>
+    </None>
+    <None Include="content\gumproject\planet4_big.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>planet4_big</Name>
+    </None>
+    <None Include="content\gumproject\planet5_big.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>planet5_big</Name>
+    </None>
+    <None Include="content\gumproject\planet6_big.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>planet6_big</Name>
+    </None>
+    <None Include="content\gumproject\planet7_big.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>planet7_big</Name>
+    </None>
+    <None Include="content\gumproject\planet8_big.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>planet8_big</Name>
+    </None>
+    <None Include="content\gumproject\planet9_big.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>planet9_big</Name>
+    </None>
+    <None Include="content\gumproject\red-bar-bullet1b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>red-bar-bullet1b</Name>
+    </None>
+    <None Include="content\gumproject\red-bar-bullet1m.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>red-bar-bullet1m</Name>
+    </None>
+    <None Include="content\gumproject\red-bar-bullet1t.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>red-bar-bullet1t</Name>
+    </None>
+    <None Include="content\gumproject\screens\charactermenugum.gusx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>CharacterMenuGum</Name>
+    </None>
+    <None Include="content\gumproject\screens\mainmenugum.gusx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>MainMenuGum</Name>
+    </None>
+    <None Include="content\gumproject\screens\mainshiptestgum.gusx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>MainShipTestGum</Name>
+    </None>
+    <None Include="content\gumproject\screens\map1gum.gusx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Map1Gum</Name>
+    </None>
+    <None Include="content\gumproject\screens\map2gum.gusx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Map2Gum</Name>
+    </None>
+    <None Include="content\gumproject\screens\map3gum.gusx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Map3Gum</Name>
+    </None>
+    <None Include="content\gumproject\screens\mapscreengum.gusx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>MapScreenGum</Name>
+    </None>
+    <None Include="content\gumproject\screens\playmenugum.gusx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>PlayMenuGum</Name>
+    </None>
+    <None Include="content\gumproject\screens\shop1gum.gusx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Shop1Gum</Name>
+    </None>
+    <None Include="content\gumproject\screens\shopscreengum.gusx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>ShopScreenGum</Name>
+    </None>
+    <None Include="content\gumproject\screens\startmenugum.gusx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>StartMenuGum</Name>
+    </None>
+    <None Include="content\gumproject\screens\testendscreengum.gusx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>TestEndScreenGum</Name>
+    </None>
+    <None Include="content\gumproject\screens\testlevelgum.gusx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>TestLevelGum</Name>
+    </None>
+    <None Include="content\gumproject\screens\testmenugum.gusx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>TestMenuGum</Name>
+    </None>
+    <None Include="content\gumproject\screens\travelscreengum.gusx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>TravelScreenGum</Name>
+    </None>
+    <None Include="content\gumproject\space_texture_004.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>space_texture_004</Name>
+    </None>
+    <None Include="content\gumproject\space_texture_013.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>space_texture_013</Name>
+    </None>
+    <None Include="content\gumproject\space_texture_015.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>space_texture_015</Name>
+    </None>
+    <None Include="content\gumproject\standards\circle.gutx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>circle</Name>
+    </None>
+    <None Include="content\gumproject\standards\coloredrectangle.gutx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>coloredrectangle</Name>
+    </None>
+    <None Include="content\gumproject\standards\component.gutx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>component</Name>
+    </None>
+    <None Include="content\gumproject\standards\container.gutx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>container</Name>
+    </None>
+    <None Include="content\gumproject\standards\nineslice.gutx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>nineslice</Name>
+    </None>
+    <None Include="content\gumproject\standards\polygon.gutx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>polygon</Name>
+    </None>
+    <None Include="content\gumproject\standards\rectangle.gutx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>rectangle</Name>
+    </None>
+    <None Include="content\gumproject\standards\sprite.gutx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>sprite</Name>
+    </None>
+    <None Include="content\gumproject\standards\standardgraphics\red_bottomcenter.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>red_bottomcenter</Name>
+    </None>
+    <None Include="content\gumproject\standards\standardgraphics\red_bottomleft.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>red_bottomleft</Name>
+    </None>
+    <None Include="content\gumproject\standards\standardgraphics\red_bottomright.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>red_bottomright</Name>
+    </None>
+    <None Include="content\gumproject\standards\standardgraphics\red_center.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>red_center</Name>
+    </None>
+    <None Include="content\gumproject\standards\standardgraphics\red_left.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>red_left</Name>
+    </None>
+    <None Include="content\gumproject\standards\standardgraphics\red_right.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>red_right</Name>
+    </None>
+    <None Include="content\gumproject\standards\standardgraphics\red_topcenter.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>red_topcenter</Name>
+    </None>
+    <None Include="content\gumproject\standards\standardgraphics\red_topleft.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>red_topleft</Name>
+    </None>
+    <None Include="content\gumproject\standards\standardgraphics\red_topright.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>red_topright</Name>
+    </None>
+    <None Include="content\gumproject\standards\text.gutx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>text</Name>
+    </None>
+    <None Include="content\gumproject\star_blue01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>star_blue01</Name>
+    </None>
+    <None Include="content\gumproject\star_red_giant04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>star_red_giant04</Name>
+    </None>
+    <None Include="content\gumproject\star_yellow03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>star_yellow03</Name>
+    </None>
+    <None Include="content\screens\map1\green-arrow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>green-arrow</Name>
+    </None>
+    <None Include="content\screens\testendscreen\pusheenbye.achx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>PusheenBye</Name>
+    </None>
+    <None Include="content\screens\testendscreen\pusheenbye.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>pusheenBye</Name>
+    </None>
     <None Include="Libraries\DesktopGl\Debug\FlatRedBall.Forms.dll" />
     <None Include="Libraries\DesktopGl\Debug\GumCoreXnaPc.dll" />
     <None Include="Libraries\DesktopGl\Debug\StateInterpolation.dll" />
